@@ -17,7 +17,7 @@ let final;
 async function getWeather(weather) {
   try {
     let myApi = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=24b35c6ae08d4b1bae1155119240812&q=${weather}&days=3`
+      `https://api.weatherapi.com/v1/forecast.json?key=24b35c6ae08d4b1bae1155119240812&q=${weather}&days=3`
     );
     final = await myApi.json();
     alertMsg.classList.add("d-none");
