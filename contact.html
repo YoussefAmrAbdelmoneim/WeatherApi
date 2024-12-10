@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Weather" />
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/style.min.css" />
+    <link rel="stylesheet" href="./CSS/contact.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-nav p-50">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#"
+          ><img
+            src="./images/logo@2x.png"
+            class="m-10"
+            width="64px"
+            height="38px"
+            alt=""
+          />
+          <div class="logo d-inline-block align-middle">
+            <h1 class="f-16 m-5px">Company name</h1>
+            <small class="f-16">tagline goes here</small>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white home" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item ml-10">
+              <a class="nav-link text-white" href="#">News</a>
+            </li>
+            <li class="nav-item ml-10">
+              <a class="nav-link text-white" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item ml-10">
+              <a class="nav-link text-white" href="#">Photos</a>
+            </li>
+            <li class="nav-item ml-10">
+              <a class="nav-link text-white active" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="bar">
+          <a href="#home" class="c-gray text-decoration-none f-13" id="home"
+            >Home</a
+          >
+          <i class="fa-solid fa-arrow-right mx-2 c-gray f-13"></i>
+          <span class="text-white f-13">Contact</span>
+        </div>
+      </div>
+      <div class="p-70px">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="contact">
+                <div class="map"></div>
+                <div class="contact-details">
+                  <div class="d-flex">
+                    <i class="fa-solid fa-location-dot t-cyan"></i>
+                    <p class="d-inline-block c-gray f-14 ms-2">
+                      Company Name INC. <br />2803 Avenue Street, Los Angeles
+                    </p>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <a href="#" class="text-decoration-none f-14"
+                        ><i class="fa-solid fa-phone t-cyan me-2"></i>
+                        <span class="c-gray f-14">+1 800 314 235</span>
+                      </a>
+                    </div>
+                    <div class="col-lg-7">
+                      <a href="#" class="text-decoration-none f-14"
+                        ><i class="fa-solid fa-envelope t-cyan me-2"></i>
+                        <span class="c-gray f-14">
+                          contact@companyname.com</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+              <h2 class="text-white">Contact us</h2>
+              <p class="c-gray">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Commodi consectetur inventore ducimus, facilis, numquam id
+                soluta omnis eius recusandae nesciunt vero repellat harum cum.
+                Nisi facilis odit hic, ipsum sed!
+              </p>
+              <form class="contact-form">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <input type="text" placeholder="Your Name..." />
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="email" placeholder="Email Address..." />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <input type="text" placeholder="Company Name..." />
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" placeholder="Website..." />
+                  </div>
+                </div>
+                <textarea placeholder="Message"></textarea>
+                <div class="text-end">
+                  <button class="form-button">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="p-50">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 sub-form">
+            <form class="position-relative">
+              <input
+                type="text"
+                class="form-control text-white bg-darkg inputFocus mb-20"
+                placeholder="Enter your email to subscribe..."
+              />
+              <button class="btn btn-primary position-absolute btnProb">
+                Subscribe
+              </button>
+            </form>
+          </div>
+          <div class="col-lg-3 offset-lg-1">
+            <span class="icon-circle"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></span>
+            <span class="icon-circle"
+              ><i class="fa-brands fa-twitter"></i
+            ></span>
+            <span class="icon-circle"
+              ><i class="fa-brands fa-google-plus-g"></i
+            ></span>
+            <span class="icon-circle">
+              <i class="fa-brands fa-pinterest"></i
+            ></span>
+          </div>
+        </div>
+        <p class="c-gray">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="./Bootstrap/JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/contact.min.js"></script>
+  </body>
+</html>

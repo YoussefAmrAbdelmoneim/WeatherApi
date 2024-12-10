@@ -1,0 +1,67 @@
+.bar {
+  background: #262936;
+  border-radius: 40px;
+  padding: 20px 30px;
+}
+.f-13 {
+  font-size: 13px;
+}
+.f-14 {
+  font-size: 14px;
+}
+.p-70px {
+  padding: 70px 0;
+}
+.contact {
+  background: #262936;
+  border-radius: 10px;
+}
+.map {
+  height: 220px;
+}
+.contact-details {
+  padding: 20px;
+}
+.ps-30 {
+  padding-left: 30px;
+}
+.t-cyan {
+  color: #009ad8;
+}
+.bar #home:hover
+{
+    text-decoration: underline !important;
+}
+.contact-form input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: white;
+  border: 2px solid #393c48;
+  background: transparent;
+  outline: none;
+  border-radius: 30px;
+}
+.contact-form textarea {
+  min-height: 150px;
+}
+.contact-form input:hover {
+  border: 2px solid #009ad8;
+}
+.contact-form input:focus {
+  border: 2px solid #009ad8;
+}
+.contact-form textarea:hover {
+  border: 2px solid #009ad8;
+}
+.contact-form textarea:focus {
+  border: 2px solid #009ad8;
+}
+.form-button {
+  border: none;
+  background: #009ad8;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
